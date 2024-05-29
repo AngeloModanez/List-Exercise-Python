@@ -1,0 +1,7 @@
+P = int(input('Digite o primeiro termo: '))
+R = int(input('Digite a Razão: '))
+Q = int(input('Digite a quantidade de termos: '))
+Ultimo =  P + R * (Q - 1)
+Termos = list(range(P, Ultimo + 1, R))
+print('\nLista gerada com Ranges')
+print(Termos)
